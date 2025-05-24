@@ -1,4 +1,5 @@
 using Final_UI.Data;
+using Final_UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,15 +15,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<IRagService, RagService>();
+builder.Services.AddScoped<IOpenAiService, OpenAiService>();
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularApp",
-        builder =>
-        {
-            builder.WithOrigins("http://localhost:4200")
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
-        });
+    options.AddPolicy("AllowAngularApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
 
 var app = builder.Build();
@@ -33,12 +37,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-// Use CORS
-app.UseCors("AllowAngularLocalhost");
+
 app.UseCors("AllowAngularApp");
 app.UseHttpsRedirection();
-// After app.UseRouting();
-app.UseCors("AllowAngularDevClient");
 app.UseAuthorization();
 app.UseStaticFiles(); // required to serve wwwroot/images
 app.MapControllers();

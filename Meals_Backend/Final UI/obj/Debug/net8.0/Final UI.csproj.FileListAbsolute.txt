@@ -291,3 +291,15 @@ C:\Users\DELL\Desktop\Final UI\Final UI\Final UI\obj\Debug\net8.0\Final UI.genru
 C:\Users\DELL\Desktop\Final UI\Final UI\Final UI\obj\Debug\net8.0\ref\Final UI.dll
 C:\Users\DELL\Desktop\Final UI\Final UI\Final UI\bin\Debug\net8.0\Final UI.staticwebassets.runtime.json
 C:\Users\DELL\Desktop\Final UI\Final UI\Final UI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.csproj.AssemblyReference.cache
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.AssemblyInfoInputs.cache
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.AssemblyInfo.cs
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.csproj.CoreCompileInputs.cache
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.sourcelink.json
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.dll
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\refint\Final UI.dll
+C:\Users\CAROL EHAB\Desktop\GitHub\Meals\MealsPlanning\Meals_Backend\Final UI\obj\Debug\net8.0\Final UI.pdb
