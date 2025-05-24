@@ -1,0 +1,21 @@
+<div class="page-layout">
+  <div class="container">
+  
+    <div *ngIf="showNotFollowingMessage" class="shortMSG">
+         This account is private.
+    </div>
+
+    <div class="venues-grid" *ngIf="!showNotFollowingMessage">
+      <div class="venue-card" *ngFor="let recipe of recipes">
+
+        <img [src]="recipe.image" [alt]="recipe.name" class="venue-image">
+        <div class="venue-details">
+          <h3 class="venue-name">{{ recipe.name }}</h3>
+          <p class="venue-description">{{ recipe.description }}</p>
+          <div class="venue-actions">
+            <button class="view-details" (click)="viewDetails(recipe.id!)">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

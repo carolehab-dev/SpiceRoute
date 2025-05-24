@@ -1,0 +1,75 @@
+.recipe-header, .ingHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+}
+
+.ingAmount{
+  margin-left: 15px;
+}
+
+.ingCat{
+  margin-right: 425px;
+}
+
+ .recipeName{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 600px;
+    font-weight: bold;
+  }
+
+  .divider {
+      height: 1px;
+      background-color: #ccc;
+      /* margin: 15px 0; */
+  }
+
+  .img-fluid {
+    width: 600px;
+    height: 400px;
+    margin-left: 450px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+
+  .recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .form-group label {
+    font-weight: 600;
+    color: #444;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  .ingredient-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .ingredient-row input {
+    flex: 1;
+  }

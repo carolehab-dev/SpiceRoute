@@ -1,0 +1,28 @@
+<div class="calendar">
+  <div class="header">
+    <button (click)="prevMonth()">&#8592;</button>
+    <span>{{ currentDate | date: 'MMMM yyyy' }}</span>
+    <button (click)="nextMonth()">&#8594;</button>
+  </div>
+
+  <div class="days-grid">
+    <div *ngFor="let day of getDaysInMonth()" class="day-container">
+      <div class="day-number">{{ day.getDate() }}</div>
+      <div *ngFor="let meal of getMealsForDate(day)" class="meal-item">
+        {{ meal.name }} ({{ meal.category }})
+        <button class="delete-btn" (click)="deleteMeal(meal)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal" *ngIf="showModal">
+  <div class="modal-content">
+    <h3>Are you sure you want to delete "{{ mealToDelete?.name }}"?</h3>
+    <button id="delete-btn-modal" (click)="confirmDelete()">Yes, Delete</button>
+    <button (click)="cancelDelete()">Cancel</button>
+  </div>
+</div>

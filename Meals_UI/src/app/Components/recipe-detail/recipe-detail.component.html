@@ -1,0 +1,90 @@
+<div *ngIf="recipe" class="recipe-detail-container">
+  <div class="recipe-header">
+    <h1>{{ recipe.name }}</h1>
+    <div class="recipe-meta">
+        <p><strong>Cuisine:</strong> {{ recipe.cuisine }}</p>
+        <p><strong>Cooking Time:</strong> {{ recipe.cookingTime }} minutes</p>
+      </div>
+  </div>
+
+  <div class="recipe-content">
+    <div class="recipe-media">
+      <img [src]="recipe.imageUrl" alt="{{recipe.name}}" />
+      <div class="nutrition-facts">
+        <h3>Nutritional Facts</h3>
+        <p>{{ recipe.nutritionalFacts }}</p>
+      </div>
+    </div>
+
+    <div class="recipe-details">
+
+      <!-- <div class="recipe-meta">
+        <p><strong>Cuisine:</strong> {{ recipe.cuisine }}</p>
+        <p><strong>Cooking Time:</strong> {{ recipe.cookingTime }} minutes</p>
+      </div> -->
+
+      <div class="recipe-section description">
+        <h2>About This Recipe</h2>
+        <p>{{ recipe.description }}</p>
+      </div>
+
+      <div class="recipe-section ingredients">
+        <h2>🧂 Ingredients</h2>
+        <ul>
+          <li *ngFor="let ingredient of recipe.ingredients">
+            <span class="amount">{{ ingredient.amount }}</span>
+            <span class="name">{{ ingredient.name }}</span>
+            <span class="category">{{ ingredient.category }}</span> 
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div class="recipe-section">
+        <h3>Nutritional Facts</h3>
+        <p>{{ recipe.nutritionalFacts }}</p>
+      </div> -->
+    </div>
+  </div>
+
+
+
+  <div class="reviews-container">
+    <div class="reviews-header">
+      <h2>⭐ Reviews</h2>
+    </div>
+    <div *ngIf="recipe.reviews?.length; else noReviews" class="reviews-list">
+      <div *ngFor="let r of recipe.reviews" class="review-card">
+        <div class="review-header">
+          <span class="user">{{ r.username }}</span>
+          <div class="review-stars">
+            <span *ngFor="let s of [1,2,3,4,5]" 
+                  [ngClass]="{'filled': s <= r.rating}" 
+                  class="star">★</span>
+          </div>
+        </div>
+        <p class="review-comment">{{ r.comment }}</p>
+      </div>
+    </div>
+
+    <ng-template #noReviews>
+      <p class="no-reviews-message">No reviews yet. Be the first to review!</p>
+    </ng-template>
+
+    <div class="review-form">
+      <h3>Share Your Experienc</h3>
+      <div class="rating-input">
+        <span>Your Rating:</span>
+        <div class="stars">
+          <span *ngFor="let r of [1,2,3,4,5]" 
+                (click)="newRating = r" 
+                [ngClass]="{'filled': r <= newRating}" 
+                class="star">★</span>
+        </div>
+      </div>
+      <textarea [(ngModel)]="newComment" 
+                placeholder="What did you think of this recipe?"></textarea>
+      <button class="submit-btn" (click)="submitReview()">Submit Review</button>
+    
+    </div>
+  </div>
+</div>

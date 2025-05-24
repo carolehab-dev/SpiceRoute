@@ -1,0 +1,9 @@
+<h2>Random Recipes</h2>
+<div class="recipe-list">
+  <div *ngFor="let r of recipes" class="recipe-card" [routerLink]="['/recipe', r.id]">
+    <img [src]="r.imageUrl" alt="{{r.name}}" />
+    <h3>{{ r.name }}</h3>
+    <p>Cooking Time: {{ r.cookingTime }} mins</p>
+    <p>Cuisine: {{ r.cuisine }}</p>
+  </div>
+</div>

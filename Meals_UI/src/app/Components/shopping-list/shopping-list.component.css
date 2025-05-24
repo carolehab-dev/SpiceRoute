@@ -1,0 +1,139 @@
+.page-header{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1{
+  text-align: center;
+  font-weight: 600;
+  color: #ff6b6b;
+  font-size: 2rem;
+}
+
+.category-group {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 800px; /* Limiting maximum width */
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-group:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.category-header {
+  padding: 0.75rem 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6b6b; /* Default pink if no category color */
+}
+
+.category-header h3 {
+  margin: 0;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.item-count {
+  background: rgba(255, 255, 255, 0.3); /* More transparent */
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+.shopping-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+  transition: all 0.2s ease;
+}
+
+.shopping-item:last-child {
+  border-bottom: none;
+}
+
+.shopping-item:hover {
+  background: #fafafa;
+}
+
+.item-checkbox {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.item-checkbox input {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkmark {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  position: relative;
+  transition: all 0.2s ease;
+
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid #ff6b6b;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.item-checkbox input:checked ~ .checkmark {
+  background-color: rgba(255, 107, 107, 0.1);
+  border-color: #ff6b6b;
+}
+
+.item-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.item-name {
+  flex-grow: 1;
+  font-size: 0.95rem;
+  color:#333;
+}
+
+.item-amount {
+  margin-right: 1rem;
+  color: #666;
+  font-size: 0.85rem;
+  min-width: 60px;
+  text-align: right;
+}
+
+.item-action {
+  color: #999;
+}

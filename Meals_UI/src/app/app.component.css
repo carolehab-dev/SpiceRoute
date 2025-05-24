@@ -1,0 +1,30 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 02rem;
+  background: linear-gradient(135deg, #FF666C 0%, #FF666C 100%);
+  color: white;
+  border-radius: 0 0 15px 15px ;
+  margin-bottom: 0;
+  box-shadow: 0 4px 20px rgba(45, 48, 71, 0.1);
+
+}
+
+.check-shopping-btn {
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #FF666C;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.check-shopping-btn:hover {
+  background-color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

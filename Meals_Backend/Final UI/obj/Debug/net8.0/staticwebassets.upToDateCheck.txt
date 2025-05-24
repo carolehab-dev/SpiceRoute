@@ -1,0 +1,20 @@
+wwwroot\Images\09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg
+wwwroot\Images\44ca173b-4443-43ac-86a7-687307bab4ed.jpg
+wwwroot\Images\5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg
+wwwroot\Images\75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg
+wwwroot\Images\b3ebae98-ed5d-4938-a629-7b2965493b47.jpg
+wwwroot\Images\b743b761-21ec-40a5-b751-9f75340ff573.jpg
+wwwroot\Images\Beef Tacos.jpg
+wwwroot\Images\ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg
+wwwroot\Images\Cheeseburger.jpg
+wwwroot\Images\Chicken Biryani.jpg
+wwwroot\Images\d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg
+wwwroot\Images\d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg
+wwwroot\Images\ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg
+wwwroot\Images\ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg
+wwwroot\Images\Margherita Pizza.jpg
+wwwroot\Images\Pad Thai.jpg
+wwwroot\Images\Spaghetti Carbonara.jpg
+wwwroot\Images\Sushi Platter.jpg
+wwwroot\Images\Tomato Soup.jpg
+wwwroot\Images\Vegetarian Pizza.jpg

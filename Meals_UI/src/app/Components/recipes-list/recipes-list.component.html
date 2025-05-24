@@ -1,0 +1,172 @@
+<!-- all recipes display page -->
+<nav class="navbar">
+    <div class="navbar-brand">My Recipes</div>
+    <div class="navbar-links">
+      <a class="nav-link">Home</a>
+      <a (click)="openFollowings()" class="nav-link">Following</a>
+      <a (click)="openFollowers()" class="nav-link">Followers</a>
+    </div>
+
+    <button class="header-button" (click)="openPopup()">Add New Recipe</button>
+</nav>
+
+<div class="page-layout">
+  <div class="container">
+    <h3 class="results-count">{{ recipes.length }} recipes found</h3>
+
+    <div class="venues-grid">
+      <div class="venue-card" *ngFor="let recipe of recipes">
+        <img [src]="recipe.image" [alt]="recipe.name" class="venue-image">
+        <div class="venue-details">
+          <h3 class="venue-name">{{ recipe.name }}</h3>
+          <p class="venue-description">{{ recipe.description }}</p>
+          <div class="venue-actions">
+            <button class="view-details" (click)="viewDetails(recipe.id!)">View Details</button>    <!--tell the code eny fi id hna-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contacts Sidebar -->
+  <div class="contacts-sidebar">
+    <h2 class="sidebar-title">All Users</h2>
+    <div class="contacts-list">
+      <div class="contact-item" *ngFor="let user of users">
+        <div class="contact-avatar">
+          <img src="assets/users.png" alt="User image" class="avatar-image">
+        </div>
+        <span (click)="viewUser(user.id!)" class="contact-name">{{ user.name }}</span>
+
+
+
+        <!-- <button class="view-details" (click)="viewUser(user.id!)">View Details</button> -->
+        <button class="follow-button" (click)="toggleFollow(user.id)">{{ isFollowing(user.id) ? 'Unfollow' : 'Follow' }}</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- add new recipe -->
+<div class="popup-overlay" *ngIf="showPopup" >
+  <div class="popup-container">    <!--without it nothing added-->
+
+    <div class="popup-header">
+      <h2>Add New Recipe</h2>
+      <button class="close-btn" (click)="closePopup()">&times;</button>
+    </div>
+
+    <form (ngSubmit)="onSubmit()" class="recipe-form" enctype="multipart/form-data">
+
+      <div class="form-group">
+        <label>Recipe Name</label>
+        <input type="text" [(ngModel)]="recipe.name" name="name" required>   <!--something like id for validation-->
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="recipeimage">Recipe Image</label>
+        <input type="text" [(ngModel)]="recipe.image" name="image" required>
+      </div> -->
+      <div class="form-group">
+        <label>Recipe Image</label>
+        <input type="file" (change)="onFileSelected($event)" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea [(ngModel)]="recipe.description" name="description" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Instructions</label>
+        <textarea [(ngModel)]="recipe.instructions" name="instructions" required></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+            <label for="cuisine">Cuisine</label>
+            <input type="text" [(ngModel)]="recipe.cuisine" name="cuisine" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cookTime">Cook Time</label>
+            <input type="text" [(ngModel)]="recipe.cook_time" name="cook_time" placeholder="e.g. 30 minutes" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="facts">Nutrition Facts</label>
+        <input type="text" [(ngModel)]="recipe.facts" name="facts" placeholder="e.g. Calories, Protein, etc.">
+      </div>
+
+      <div class="form-group">
+        <label>Ingredients</label>
+        <div class="ingredient-container" *ngFor="let ingredient of recipe.ingredients; let i = index">
+            <div class="ingredient-row">
+                <input type="text" [(ngModel)]="ingredient.name" [name]="'ingredientName' + i" placeholder="Name" required>
+                <input type="text" [(ngModel)]="ingredient.amount" [name]="'ingredientAmount' + i" placeholder="Amount" required>
+                <input type="text" [(ngModel)]="ingredient.category" [name]="'ingredientCategory' + i" placeholder="Category" required>
+
+                <button type="button" class="remove-btn" (click)="removeIngredient(i)" *ngIf="recipe.ingredients.length > 1">Delete</button>
+            </div>
+        </div>
+
+        <button type="button" class="add-ingredient-btn" (click)="addIngredient()">Add Ingredient</button>
+      </div>
+
+      <div class="form-actions">
+        <!-- <button type="button" class="cancel-btn" (click)="closePopup()">Cancel</button> -->
+        <button type="submit" class="submit-btn">Add Recipe</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+
+<!-- display followers -->
+<div class="popup-overlay" *ngIf="followersShowPopup">
+  <div class="popup-container2">
+
+    <div class="popup-header">
+      <button class="close-btn2" (click)="closeFollowers()">&times;</button>
+    </div>
+
+      <div class="contact-item" *ngFor="let follower of followers">
+        <div class="contact-avatar2">
+          <img src="assets/users.png" alt="User image" class="avatar-image">
+        </div>
+
+        <span class="contact-name">{{ follower.userName}}</span>
+
+      </div>
+  </div>
+</div>
+
+<!-- display following -->
+<div class="popup-overlay" *ngIf="followingsShowPopup">
+  <div class="popup-container2">
+
+    <div class="popup-header">
+      <button class="close-btn2" (click)="closeFollowings()">&times;</button>
+    </div>
+
+    <div *ngIf="followings.length > 0; else noFollowings">
+      <div class="contact-item" *ngFor="let following of followings">
+        <div class="contact-avatar2">
+          <img src="assets/users.png" alt="User image" class="avatar-image">
+        </div>
+
+        <span (click)="viewUser(following.userId!)" class="contact-name">{{ following.userName}}</span>
+
+        <button class="follow-button" (click)="removeFollow(following.userId)">Unfollow</button>
+      </div>
+    </div>
+
+    <ng-template #noFollowings>
+      <p class="no-following-message">You are not following anyone yet.</p>
+    </ng-template>
+
+  </div>
+</div>

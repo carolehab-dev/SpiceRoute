@@ -1,0 +1,37 @@
+<div class="saved-recipes-container">
+  <div *ngIf="loading" class="loading-state">
+    <div class="spinner"></div>
+    <p>Loading saved recipes...</p>
+  </div>
+  <div *ngIf="error" class="error-message">
+    <span class="error-icon">⚠️</span>
+    <p>{{ error }}</p>
+  </div>
+
+  <div *ngIf="!loading && savedRecipes.length === 0" class="empty-state">
+    <p>No Saved Recipes Yet</p>
+    <p>Start saving your favorite recipes to see them here!</p>
+    <button class="discover-btn" [routerLink]="['/discover']">Discover Recipes</button>
+  </div>
+
+  <div *ngIf="!loading && savedRecipes.length > 0">
+    <h2 class="page-title">Your Saved Recipes</h2>
+    <p class="saved-count">{{ savedRecipes.length }} saved recipes</p>
+
+    <div class="recipe-list">
+        <div *ngFor="let recipe of savedRecipes" class="recipe-card">
+          <div class="card-image">
+            <img [src]="recipe.imageUrl" alt="{{recipe.name}}" />
+            <button class="unsave-btn" (click)="unsave(recipe.id)">Unsave</button>
+          </div>
+          <div class="card-body">
+            <h3>{{ recipe.name }}</h3>
+            <div class="recipe-meta">
+              <span class="cuisine-badge">{{ recipe.cuisine }}</span>
+              <span class="time-badge">⏱ {{ recipe.cookingTime }} min</span>
+            </div>
+          </div>          
+      </div>
+    </div>
+  </div>
+</div>

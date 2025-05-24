@@ -1,0 +1,22 @@
+<div class="page-header">
+<h1>Shopping List</h1>
+</div>
+
+<div *ngFor="let group of shoppingList" class="category-group">
+  <div class="category-header" [ngStyle]="{'background': getCategoryColor(group.category)}">
+    <h3>{{ group.category }}</h3>
+    <span class="item-count">{{ group.items.length }} items</span>
+  </div>
+  <ul class="item-list">
+    <li *ngFor="let item of group.items" class="shopping-item">
+      <label class="item-checkbox">
+        <input type="checkbox"  [(ngModel)]="item.checked">
+        <span class="checkmark"></span>
+      </label>
+      <span class="item-name">{{ item.name }}</span>
+      <span class="item-amount">{{ item.amount }}</span>
+
+    </li>
+  </ul>
+</div>
+

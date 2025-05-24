@@ -1,0 +1,2082 @@
+{
+  "Version": 1,
+  "Hash": "ClSKEVC9HfBAvo3NpQ0YIWsB+3Y65eXWthb66NKDVgw=",
+  "Source": "Final UI",
+  "BasePath": "_content/Final UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Final UI\\wwwroot",
+      "Source": "Final UI",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/09f783de-b1ac-42ba-bdef-17048d0e99d1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jk4cx6bmzl",
+      "Integrity": "3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\44ca173b-4443-43ac-86a7-687307bab4ed.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/44ca173b-4443-43ac-86a7-687307bab4ed#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5fa2o8mld",
+      "Integrity": "zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\44ca173b-4443-43ac-86a7-687307bab4ed.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/5ef7d8da-2855-4567-b597-c6953bc8a2f1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jk4cx6bmzl",
+      "Integrity": "3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/75ad0929-9c85-4741-b4ed-de5e8cd08d7d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jk4cx6bmzl",
+      "Integrity": "3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\b3ebae98-ed5d-4938-a629-7b2965493b47.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/b3ebae98-ed5d-4938-a629-7b2965493b47#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4p7o9jq02",
+      "Integrity": "8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b3ebae98-ed5d-4938-a629-7b2965493b47.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\b743b761-21ec-40a5-b751-9f75340ff573.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/b743b761-21ec-40a5-b751-9f75340ff573#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4p7o9jq02",
+      "Integrity": "8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\b743b761-21ec-40a5-b751-9f75340ff573.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Beef Tacos.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Beef Tacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g5fq4su4ko",
+      "Integrity": "NCP02CBK+g9PXi4uPSOpSMwA5r5Yf2Da2Ex2J9Cmdx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Beef Tacos.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/ce0c66c3-646e-494d-aafc-d5a2cb9b240f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4p7o9jq02",
+      "Integrity": "8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Cheeseburger.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Cheeseburger#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4p7o9jq02",
+      "Integrity": "8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Cheeseburger.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Chicken Biryani.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Chicken Biryani#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l6ochjry1w",
+      "Integrity": "bRKziPYYm9hXbdKW5RowtGBuWDRscUw7aUferPK8QCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Chicken Biryani.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4p7o9jq02",
+      "Integrity": "8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/d2642817-a960-4b92-bede-6ba6ebc9aec8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txnz4kk4r5",
+      "Integrity": "Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/ded672fe-863b-45b8-891e-8bbdd2900c3b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j4p7o9jq02",
+      "Integrity": "8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txnz4kk4r5",
+      "Integrity": "Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Margherita Pizza.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Margherita Pizza#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txnz4kk4r5",
+      "Integrity": "Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Margherita Pizza.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Pad Thai.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Pad Thai#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "st15fcxsno",
+      "Integrity": "gDhlgBIEcri2wIOSI3HZvafjuFXei7blrisJUQgFsmU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Pad Thai.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Spaghetti Carbonara.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Spaghetti Carbonara#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pu8ljt18qs",
+      "Integrity": "70gqB/Tr2NrpBIUnBBXRaYI7BvfUD0Q3b5ZtZfQDPU0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Spaghetti Carbonara.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Sushi Platter.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Sushi Platter#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5fa2o8mld",
+      "Integrity": "zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Sushi Platter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Tomato Soup.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Tomato Soup#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4y9d0lsy7v",
+      "Integrity": "nCdW5TvQkpcW6Q42kbFJTS8o3BvQI33IIhCHUuFigFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Tomato Soup.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Vegetarian Pizza.jpg",
+      "SourceId": "Final UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\",
+      "BasePath": "_content/Final UI",
+      "RelativePath": "Images/Vegetarian Pizza#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jk4cx6bmzl",
+      "Integrity": "3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Vegetarian Pizza.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/09f783de-b1ac-42ba-bdef-17048d0e99d1.jk4cx6bmzl.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jk4cx6bmzl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\09f783de-b1ac-42ba-bdef-17048d0e99d1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:00:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/44ca173b-4443-43ac-86a7-687307bab4ed.e5fa2o8mld.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\44ca173b-4443-43ac-86a7-687307bab4ed.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:54:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5fa2o8mld"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/44ca173b-4443-43ac-86a7-687307bab4ed.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio="
+        }
+      ]
+    },
+    {
+      "Route": "Images/44ca173b-4443-43ac-86a7-687307bab4ed.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\44ca173b-4443-43ac-86a7-687307bab4ed.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:54:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio="
+        }
+      ]
+    },
+    {
+      "Route": "Images/5ef7d8da-2855-4567-b597-c6953bc8a2f1.jk4cx6bmzl.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jk4cx6bmzl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\5ef7d8da-2855-4567-b597-c6953bc8a2f1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:00:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jk4cx6bmzl.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jk4cx6bmzl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\75ad0929-9c85-4741-b4ed-de5e8cd08d7d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:13:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/b3ebae98-ed5d-4938-a629-7b2965493b47.j4p7o9jq02.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\b3ebae98-ed5d-4938-a629-7b2965493b47.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:20:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4p7o9jq02"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/b3ebae98-ed5d-4938-a629-7b2965493b47.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/b3ebae98-ed5d-4938-a629-7b2965493b47.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\b3ebae98-ed5d-4938-a629-7b2965493b47.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:20:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/b743b761-21ec-40a5-b751-9f75340ff573.j4p7o9jq02.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\b743b761-21ec-40a5-b751-9f75340ff573.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4p7o9jq02"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/b743b761-21ec-40a5-b751-9f75340ff573.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/b743b761-21ec-40a5-b751-9f75340ff573.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\b743b761-21ec-40a5-b751-9f75340ff573.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Beef Tacos.g5fq4su4ko.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Beef Tacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NCP02CBK+g9PXi4uPSOpSMwA5r5Yf2Da2Ex2J9Cmdx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:30:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g5fq4su4ko"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Beef Tacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NCP02CBK+g9PXi4uPSOpSMwA5r5Yf2Da2Ex2J9Cmdx0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Beef Tacos.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Beef Tacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "227926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NCP02CBK+g9PXi4uPSOpSMwA5r5Yf2Da2Ex2J9Cmdx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:30:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NCP02CBK+g9PXi4uPSOpSMwA5r5Yf2Da2Ex2J9Cmdx0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ce0c66c3-646e-494d-aafc-d5a2cb9b240f.j4p7o9jq02.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:12:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4p7o9jq02"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ce0c66c3-646e-494d-aafc-d5a2cb9b240f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:12:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Cheeseburger.j4p7o9jq02.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Cheeseburger.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:30:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4p7o9jq02"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Cheeseburger.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Cheeseburger.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Cheeseburger.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:30:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Chicken Biryani.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Chicken Biryani.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bRKziPYYm9hXbdKW5RowtGBuWDRscUw7aUferPK8QCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bRKziPYYm9hXbdKW5RowtGBuWDRscUw7aUferPK8QCQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Chicken Biryani.l6ochjry1w.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Chicken Biryani.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141684"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bRKziPYYm9hXbdKW5RowtGBuWDRscUw7aUferPK8QCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6ochjry1w"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Chicken Biryani.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bRKziPYYm9hXbdKW5RowtGBuWDRscUw7aUferPK8QCQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.j4p7o9jq02.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:25:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4p7o9jq02"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\d14fac6a-1a2e-4e91-9b8d-eee68ba9c0a5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:25:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/d2642817-a960-4b92-bede-6ba6ebc9aec8.txnz4kk4r5.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:03:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txnz4kk4r5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/d2642817-a960-4b92-bede-6ba6ebc9aec8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ded672fe-863b-45b8-891e-8bbdd2900c3b.j4p7o9jq02.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:21:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4p7o9jq02"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ded672fe-863b-45b8-891e-8bbdd2900c3b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "202856"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 08:21:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wY1EPN7qP8T0v+cprW57ruFzl0XriXgTb/7VAIIUp0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:03:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.txnz4kk4r5.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 09:03:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txnz4kk4r5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ffcc9bc4-5c55-4dd4-af59-8fe94c1459ac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Margherita Pizza.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Margherita Pizza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:30:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Margherita Pizza.txnz4kk4r5.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Margherita Pizza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:30:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txnz4kk4r5"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Margherita Pizza.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dwi23yBbxybJX24HTYRPptbajraB9PSAQJX1V2J6bc8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Pad Thai.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Pad Thai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "367207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gDhlgBIEcri2wIOSI3HZvafjuFXei7blrisJUQgFsmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gDhlgBIEcri2wIOSI3HZvafjuFXei7blrisJUQgFsmU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Pad Thai.st15fcxsno.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Pad Thai.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "367207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gDhlgBIEcri2wIOSI3HZvafjuFXei7blrisJUQgFsmU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "st15fcxsno"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Pad Thai.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gDhlgBIEcri2wIOSI3HZvafjuFXei7blrisJUQgFsmU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Spaghetti Carbonara.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Spaghetti Carbonara.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"70gqB/Tr2NrpBIUnBBXRaYI7BvfUD0Q3b5ZtZfQDPU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-70gqB/Tr2NrpBIUnBBXRaYI7BvfUD0Q3b5ZtZfQDPU0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Spaghetti Carbonara.pu8ljt18qs.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Spaghetti Carbonara.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117632"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"70gqB/Tr2NrpBIUnBBXRaYI7BvfUD0Q3b5ZtZfQDPU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pu8ljt18qs"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Spaghetti Carbonara.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-70gqB/Tr2NrpBIUnBBXRaYI7BvfUD0Q3b5ZtZfQDPU0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Sushi Platter.e5fa2o8mld.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Sushi Platter.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5fa2o8mld"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Sushi Platter.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Sushi Platter.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Sushi Platter.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zvJaVlOO+RXgGZ1PQy5EDKAuy4Vt5J7cQ1VfFXc+Eio="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Tomato Soup.4y9d0lsy7v.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Tomato Soup.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nCdW5TvQkpcW6Q42kbFJTS8o3BvQI33IIhCHUuFigFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4y9d0lsy7v"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Tomato Soup.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nCdW5TvQkpcW6Q42kbFJTS8o3BvQI33IIhCHUuFigFs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Tomato Soup.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Tomato Soup.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "131726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nCdW5TvQkpcW6Q42kbFJTS8o3BvQI33IIhCHUuFigFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nCdW5TvQkpcW6Q42kbFJTS8o3BvQI33IIhCHUuFigFs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Vegetarian Pizza.jk4cx6bmzl.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Vegetarian Pizza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jk4cx6bmzl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Vegetarian Pizza.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Vegetarian Pizza.jpg",
+      "AssetFile": "C:\\Users\\DELL\\Desktop\\Final UI\\Final UI\\Final UI\\wwwroot\\Images\\Vegetarian Pizza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:31:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZSzAWOzXHTApir4MV6MdNTjmnfarA8KRwcDby7A1js="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<form *ngIf="recipe" #form="ngForm" class="recipe-form">
+
+  <div class="recipe-header">
+
+    <button class="btn-update" (click)="editMode = true" *ngIf="!editMode">Update</button>
+    <button class="btn-save" (click)="saveRecipe()" *ngIf="editMode">Save</button>
+    
+    <label class="recipeName">{{ recipe.name }}</label>
+
+    <button class="btn-delete" (click)="deleteRecipe()">Delete</button>
+  </div>
+
+  <div class="divider"></div>
+  <img [src]="recipe.image" class="img-fluid">
+
+  <div class="form-group">
+    <label>Description</label>
+    <textarea [(ngModel)]="recipe.description" name="description" [disabled]="!editMode" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Instructions</label>
+    <textarea [(ngModel)]="recipe.instructions" name="instructions" [disabled]="!editMode" required></textarea>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label>Cuisine</label>
+      <input type="text" [(ngModel)]="recipe.cuisine" name="cuisine" [disabled]="!editMode" required>
+    </div>
+
+    <div class="form-group">
+      <label>Cook Time</label>
+      <input type="text" [(ngModel)]="recipe.cook_time" name="cook_time" [disabled]="!editMode" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>Nutrition Facts</label>
+    <input type="text" [(ngModel)]="recipe.facts" name="facts" [disabled]="!editMode" required>
+  </div>
+
+
+  <!--[name]="'name' + i" (property binding as it is always dynamic bindind in forms)-->
+  <!--name="name{{i}}" similar to it but not suitable with form maybe with text or thing bind once a time not dynamic-->
+  <div class="form-group">
+    <label>Ingredients</label>
+    <div class="ingHeader">
+      <label class="ingName">Name</label>
+      <label class="ingAmount">Amount</label>
+      <label class="ingCat">Category</label>
+    </div>
+    
+    <div class="ingredient-container" *ngFor="let ing of recipe.ingredients; let i = index">
+        <div class="ingredient-row">
+          
+          <input type="text" [(ngModel)]="ing.name" placeholder="Name" [name]="'name' + i" [disabled]="!editMode" required>
+          <input type="text" [(ngModel)]="ing.amount" placeholder="Amount" [name]="'amount' + i" [disabled]="!editMode" required>
+          <input type="text" [(ngModel)]="ing.category" placeholder="Category" [name]="'category' + i" [disabled]="!editMode" required>
+
+            <button type="button" class="remove-btn" (click)="removeIngredient(i)" *ngIf="editMode && recipe.ingredients.length > 1">Delete</button>
+        </div>
+    </div>
+
+    <button type="button" class="add-ingredient-btn" (click)="addIngredient()" *ngIf="editMode">Add Ingredient</button>
+  </div>
+
+  
+  <!-- <div class="form-group">
+    <label>Ingredients</label>
+    <div *ngFor="let ing of recipe.ingredients; let i = index" class="ingredient-row">
+        <input type="text" [(ngModel)]="ing.name" placeholder="Name" [name]="'name' + i" [disabled]="!editMode">
+        <input type="text" [(ngModel)]="ing.amount" placeholder="Amount" [name]="'amount' + i" [disabled]="!editMode">
+        <input type="text" [(ngModel)]="ing.category" placeholder="Category" [name]="'category' + i" [disabled]="!editMode">
+    </div>
+  </div> -->
+</form>

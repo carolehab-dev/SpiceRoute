@@ -1,0 +1,21 @@
+<nav *ngIf="shouldShowNavbar()" class="navbar">
+  <div class="navbar-container">
+    <a routerLink="/home" class="navbar-brand">
+      <img src="assets/logo.png" alt="Meal Planner Logo" class="navbar-logo">
+      <span>Meal Planner</span>
+    </a>
+    
+    <div class="navbar-links">
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+      <a routerLink="/discover" routerLinkActive="active">Discover</a>
+      <a routerLink="/calendar" routerLinkActive="active">Calendar</a>
+      <a routerLink="/saved-recipes" routerLinkActive="active">Saved Recipes</a>
+      <a routerLink="/list" routerLinkActive="active">Shopping List</a>
+    </div>
+    
+    <div class="navbar-user" *ngIf="user">
+      <!-- <span class="username">{{ user.username }}</span> -->
+      <a routerLink="/myprofile" routerLinkActive="active">{{ user.username }}</a>
+    </div>
+  </div>
+</nav>
