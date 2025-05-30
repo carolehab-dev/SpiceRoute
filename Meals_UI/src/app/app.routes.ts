@@ -11,6 +11,7 @@ import { OneRecipeComponent } from './Components/one-recipe/one-recipe.component
 import { RecipesListComponent } from './Components/recipes-list/recipes-list.component';
 import { ViewFollowRecipeComponent } from './Components/view-follow-recipe/view-follow-recipe.component';
 import { RegisterComponent } from './Components/register/register.component';
+import { ChatComponent } from './Components/chat/chat.component';
 export const routes: Routes = [
 
     { path: 'login', component: LoginComponent },
@@ -19,9 +20,10 @@ export const routes: Routes = [
     { path: 'list', component: ShoppingListComponent },
     { path: 'recipe/:id', component: RecipeDetailComponent },
     { path: 'saved-recipes', component: SavedRecipesComponent },
+    { path: 'chat', component: ChatComponent },
     { path: '', component: RegisterComponent },
-    {path: 'oneRecipe/:id', component:OneRecipeComponent},
-    {path: 'user/:userId', component: ViewFollowRecipeComponent },
+    { path: 'oneRecipe/:id', component: OneRecipeComponent },
+    { path: 'user/:userId', component: ViewFollowRecipeComponent },
     {path: 'displayonlyRecipe/:id', component:DisplayOnlyComponent},
     {path: 'myprofile', component:RecipesListComponent},
 

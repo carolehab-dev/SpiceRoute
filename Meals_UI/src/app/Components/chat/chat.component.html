@@ -1,0 +1,28 @@
+<div class="chat-container">
+  <div class="chat-header">
+    <h2>🍽️ Meal Planning Assistant</h2>
+    <p>Ask for recipe ideas, meal swaps, or healthy menus based on your saved meals.</p>
+  </div>
+
+  <div class="chat-messages">
+    <div *ngFor="let msg of messages" [ngClass]="['message', msg.role]">
+      {{ msg.content }}
+    </div>
+
+    <div *ngIf="isLoading" class="message loading">
+      <span>Thinking...</span>
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <textarea
+      rows="3"
+      [(ngModel)]="userInput"
+      (keydown)="onKeyDown($event)"
+      placeholder="Type your meal planning question here..."
+    ></textarea>
+    <button type="button" (click)="sendMessage()" [disabled]="isLoading || !userInput.trim()">
+      Send
+    </button>
+  </div>
+</div>
